@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "crud_livraria",
+    "dateExported": "2023-07-11T17:11:19.217Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1b4105bc-6eda-42aa-a730-b6906b7f55c5",
+            "colId": "6d196f53-db4d-44fb-afc5-7b6e84872280",
+            "containerId": "",
+            "name": "listar livros",
+            "url": "localhost:3000/livros",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-11T17:03:52.478Z",
+            "modified": "2023-07-11T17:04:42.509Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d381fdbd-e035-49d4-b532-7fd188e4f8a9",
+            "colId": "6d196f53-db4d-44fb-afc5-7b6e84872280",
+            "containerId": "",
+            "name": "buscar livro",
+            "url": "localhost:3000/livros/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-11T17:04:57.178Z",
+            "modified": "2023-07-11T17:05:09.943Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "879fb4d1-db7b-48c3-822a-cd00cb077b4f",
+            "colId": "6d196f53-db4d-44fb-afc5-7b6e84872280",
+            "containerId": "",
+            "name": "inserir livro",
+            "url": "localhost:3000/livros",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-11T17:05:29.729Z",
+            "modified": "2023-07-11T17:07:21.194Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Revista veja\",\n  \"preco\" : \"36.90\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fd0f124e-ffd4-4f19-bc87-9a19e959aaa0",
+            "colId": "6d196f53-db4d-44fb-afc5-7b6e84872280",
+            "containerId": "",
+            "name": "atualizar livro",
+            "url": "localhost:3000/livros/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-07-11T17:08:04.058Z",
+            "modified": "2023-07-11T17:09:30.432Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Caras\",\n  \"preco\" : \"15.00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "428c5797-28f1-498c-950d-0e204ff38fd0",
+            "colId": "6d196f53-db4d-44fb-afc5-7b6e84872280",
+            "containerId": "",
+            "name": "deletar livro",
+            "url": "localhost:3000/livros/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-07-11T17:09:46.267Z",
+            "modified": "2023-07-11T17:10:22.787Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
